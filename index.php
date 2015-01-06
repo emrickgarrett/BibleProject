@@ -9,7 +9,12 @@
 require("dry/header.php");
 
 ?>
+<div class="bible-search-header">
+    <h2 class="bible-search-text"> Bible Search</h2>
+    <span class="bible-search-descrip">A search Engine, for your bible.</span>
+</div>
 <div class="content">
+
     <div class="input-group">
         <input type="text" id="search_form" class="form-control" placeholder="Search Terms" aria-describedby="basic-addon2">
         <span class="input-group-addon" id="search_text"><a href="#" onclick="submitForm()"><span class="glyphicon glyphicon-search"></span></a></span>

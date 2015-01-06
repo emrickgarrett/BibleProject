@@ -6,10 +6,8 @@ var KEY = "2163022dc48b505336d2af8f99c02bcc";
 function submitForm(){
     var text = $("#search_form").val();
 
-
-    alert(searchBasic(text));
     //perform search
-
+    searchBasic(text);
 }
 
 function sendResults(data){
@@ -44,7 +42,6 @@ function searchFuzzy(bibleVersion, start, limit, search){
         url: searchQuery,
         dataType: 'text',
         success: function(data){
-            alert(data);
             sendResults(data);
         }
     });
