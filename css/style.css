@@ -1,0 +1,23 @@
+.content{
+    padding-top:15%;
+}
+
+.results{
+    text-align:left;
+}
+
+.result-item{
+    border-bottom-color: lightgray;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+}
+
+.result-item-text{
+    font-size:1em;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.result-item-title{
+    font-size:1.5em;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
